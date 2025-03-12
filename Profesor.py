@@ -6,8 +6,8 @@ def conectar():
         conn = mysql.connector.connect(
             host='192.168.100.79',
             database='dbtaller',
-            user='Odin',
-            password='Cuervo',
+            user='root',
+            password='Fmsinter2',
             collation='utf8mb4_general_ci'
         )
         if conn.is_connected():
