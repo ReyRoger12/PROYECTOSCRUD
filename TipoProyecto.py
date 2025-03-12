@@ -4,8 +4,8 @@ class CRUDTipoProyecto:
     def __init__(self):
         self.conn = mysql.connector.connect(
             host='192.168.100.79',
-            user='Odin',
-            password='Cuervo',
+            user='root',
+            password='Fmsinter2',
             database='dbtaller',
             collation='utf8mb4_general_ci'
         )
