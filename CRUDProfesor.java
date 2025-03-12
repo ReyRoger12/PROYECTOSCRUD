@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CRUDProfesor {
 
     static final String JDBC_DRIVER = "org.mariadb.jdbc.Driver";
-    static final String DB_URL = "jdbc:mariadb://192.168.100.79:3306/dbtaller"; 
+    static final String DB_URL = "jdbc:mariadb://192.168.171.200:3306/dbtaller"; 
     static final String USER = "Odin"; 
     static final String PASS = "Cuervo"; 
 
